@@ -1,4 +1,4 @@
-FROM internetsystemsconsortium/bind9:9.18 AS base
+FROM internetsystemsconsortium/bind9:9.19 AS base
 
   RUN apt-get update \
    && apt-get install -y dnsutils \
